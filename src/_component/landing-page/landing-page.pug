@@ -1,0 +1,28 @@
+-
+  var myFullName = 'Marcela Elena Anton'
+  var myJobTitle = 'Starter Web Developer'
+  var socialList = [
+    {
+      "icon": "facebook2",
+      "url": "https://facebook.com/marcelaelenaanton"
+      },
+    {
+      "icon": "youtube",
+      "url": "https://facebook.com/marcelaelenaanton"
+      },
+    {
+      "icon": "github",
+      "url": "https://facebook.com/marcelaelenaanton"
+      }
+  ]
+
+#landing-page
+.landing-page
+  .landing-page__wrapper
+    h1.landing-page__name=myFullName
+    h1.landing-page__title=myJobTitle
+    ul.landing-page__social
+      each social in socialList
+        li.landing-page__item
+          label.landing-page__label(for="")
+            span(class=`my-cv__icon--${social.icon}`)
