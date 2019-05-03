@@ -7,5 +7,29 @@
 
 }
 .landing-page__wrapper{
-  align-content: center;
+ text-align: center;
+}
+.landing-page__name{
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.landing_page__title{
+  font-size: 3rem;
+  text-transform: capitalize;
+
+}
+
+.landing-page__social{
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+
+}
+.landing-page__label{
+  color: white;
+  padding: 0.2rem 0.3rem;
+  font-size: 2rem;
+  cursor: pointer;
+
 }

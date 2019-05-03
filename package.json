@@ -46,7 +46,7 @@
       "cssModular": false,
       "css": {
         "embed": true,
-        "external": false
+        "external": true
       }
     }
   },

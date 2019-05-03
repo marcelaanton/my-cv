@@ -26,7 +26,7 @@ Todo List:
   ✔ make the .landing-page full height @done(19-05-03 17:06)
   ✔ html and body full height and font size @done(19-05-03 17:06)
   ✔ .landing-page__wrapper center content @done(19-05-03 17:06)
-  ☐ .landing-page__name font size Uppercase
-  ☐ .landing_page__title font size and Capitalize
-  ☐ .landing-page__social horizontal align
-  ☐ ..landing-page__item font size,color
+  ✔ .landing-page__name font size Uppercase @done(19-05-04 00:06)
+  ✔ .landing_page__title font size and Capitalize @done(19-05-04 00:07)
+  ✔ .landing-page__social horizontal align children and move away from name and title @done(19-05-04 00:11)
+  ✔ .landing-page__label font size,color and space out @done(19-05-04 00:13)
