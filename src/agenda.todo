@@ -12,7 +12,21 @@ Todo List:
   ✔ create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit) @done(19-05-03 16:41)
 
   #Landing page (part 2)
-  ☐ create landing page labels into social > social item > social label 
-  ☐ create input box-radio list next to box-message which contains a box-link
-  ☐ create a reset input radio fallowed by a box-message and box-header which contains a box-info and a box close
-  ☐ style landing page
+  ✔ create landing page labels into social > social item > social label @done(19-05-03 16:56)
+  ✔ create input box-radio list next to box-message which contains a box-link @done(19-05-03 16:56)
+  ✔ create a reset input radio fallowed by a box-message and box-header which contains a box-info and a box close @done(19-05-03 16:56)
+  ✔ style landing page @done(19-05-03 16:56)
+
+
+  # Landing page (part 3) -  style landing page
+  -display flex
+  100% height trick
+  text transformation
+
+  ✔ make the .landing-page full height @done(19-05-03 17:06)
+  ✔ html and body full height and font size @done(19-05-03 17:06)
+  ✔ .landing-page__wrapper center content @done(19-05-03 17:06)
+  ☐ .landing-page__name font size Uppercase
+  ☐ .landing_page__title font size and Capitalize
+  ☐ .landing-page__social horizontal align
+  ☐ ..landing-page__item font size,color
