@@ -1,0 +1,41 @@
+//-data comes here
+- 
+  var header = "#about me"
+  var imagePath = "asset/image/marcela-anton-avatar.jpg"
+  var myFullName = "Marcela Elena Anton"
+  var myTitle = "Starter Web Developer"
+  var slogan = "I am improving myself every day!"
+  var achievement={
+    title:'t',
+    content:'c'
+  }
+  var coolStuff={
+    title='',
+    buttonList:[
+      {
+        url:'https://github.com/marcelaanton/my-cv',
+        icon:'github',
+        label:'Click to visit theGitHub project source'
+
+
+    }
+    ]
+  }
+//-the view comes here
+
+about-me 
+.about-me 
+  .about-me__header-header
+  .about-me__avatar-wrapper
+    img.about-me__avatar(src=imagePath)
+  .about-me__full-name=myFullName
+  .about-me__full-title=myTitle
+  .about-me__slogan=slogan
+  .about-me__title=achievment.title
+  .about-me__content=achievement.content
+
+
+  each coolItem in coolStuff.buttonList
+    a(href=button.url)
+      span=button.label
+      span(class=`.my-cv__icon--${button.icon}`)=button.icon

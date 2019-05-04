@@ -45,3 +45,20 @@ Todo List:
   ✔ make the bottom rigt corner of the.landing-page__box-close rounded @done(19-05-04 00:48)
   ✔ set the color of .landing-page__box-link and .landing-page__box-message to white @done(19-05-04 00:51)
   ✔ style .landing-page__box-link @done(19-05-04 00:51)
+
+  # About me (part 1)
+  ✔ create the pug and sass files @done(19-05-04 01:09)
+  ✔ make them work in th eproject @done(19-05-04 01:09)
+  ✔ prepare cv files and image for avatar @done(19-05-04 02:16)
+  ✔ create the following variables: @done(19-05-04 02:16)
+      header
+      imagePath
+      myFullName
+      myTitle
+      slogan
+      achievement {
+        title,
+        content
+        }
+        coolStuff{
+          title,
