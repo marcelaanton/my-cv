@@ -6,7 +6,7 @@
   var myTitle = "Starter Web Developer"
   var slogan = "I am improving myself every day!"
   var achievement={
-    title:'t',
+    title:'grab cool stuff',
     content:'c'
   }
   var coolStuff={
@@ -31,11 +31,13 @@ about-me
   .about-me__full-name=myFullName
   .about-me__full-title=myTitle
   .about-me__slogan=slogan
+
   .about-me__title=achievment.title
   .about-me__content=achievement.content
 
-
-  each coolItem in coolStuff.buttonList
-    a(href=button.url)
-      span=button.label
-      span(class=`.my-cv__icon--${button.icon}`)=button.icon
+  .about-me__title=coolStuff.title
+  .about-me__link-list
+    each coolItem in coolStuff.buttonList
+      a(href=button.url)
+        span=button.label
+        span(class=`.my-cv__icon--${button.icon}`)=button.icon

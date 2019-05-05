@@ -62,3 +62,15 @@ Todo List:
         }
         coolStuff{
           title,
+          linkList:[
+            {url, icon, text}
+            ]
+            }
+☐ print the coolStuff title and change it to "grab cool stuff"
+☐ wrap the buttons in a .about-me__link-list div
+☐ stage all and commit with "create the structure of the about me section"
+☐ 
+# style the about me section
+☐ style the .cbout-me with a radial gradient of ellipse  type using
+☐ make the .about-me__header of white color and adjust padding, font size and
+☐ make .about-me__avatar round, like a circle, set the width to 100% and border
