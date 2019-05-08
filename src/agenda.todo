@@ -83,6 +83,12 @@ Todo List:
 ✔ set the align to justify the .about-me__slogan, adjust the padding, line height, font-size and text indent. @done(19-05-07 14:55)
 ✔ align the button links in .about-me__link-list to center @done(19-05-07 14:55)
 ✔ fix the icon issue @done(19-05-07 14:57)
-set the color of the border of the link button to  #d1adc2, color to #7ea1a6, background to white and align the span tags using display flex. Increase the font-size and make the corners rounded. Remove the underling of the anchor tag.
+✔ set the color of the border of the link button to  #d1adc2, color to #7ea1a6, background to white and align the span tags using display flex. Increase the font-size and make the corners rounded. Remove the underling of the anchor tag. @done(19-05-07 17:00)
 ✔ set the .obout-me__link-description aligment to center, font size to 1.5rem and the line height to 1.5 @done(19-05-07 16:34)
-stage all and commit with "style the about me section"
+✔ stage all and commit with "style the about me section" @done(19-05-07 17:00)
+
+#start the award section and refractoring
+✔ create the pug and scss files and link them to the project @done(19-05-07 18:26)
+✔ create the .award__header and style it with a color of #b2c7e2 @done(19-05-07 18:27)
+✔ refactor the header CSS into reusable code @done(19-05-07 18:35)
+☐ refactor colors into a config and use nice variable names for colors

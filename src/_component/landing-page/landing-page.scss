@@ -27,7 +27,7 @@
 
 }
 .landing-page__label{
-  color: white;
+  color:$color-white;
   padding: 0.2rem 0.3rem;
   font-size: 2rem;
   cursor: pointer;
@@ -53,7 +53,7 @@ display: none;
 
 .landing-page__box-body{
   display: inline-block;
-  border: 0.2rem solid white;
+  border: 0.2rem solid $color-white;
   border-radius:0.5rem;
   padding: 0.8rem;
   margin-top: 0.5rem;
@@ -71,7 +71,7 @@ display: none;
 }
 .landing-page__box-info,
 .landing-page__box-close{
-  background: white;
+  background: $color-white;
   padding: 0.4rem;
   white-space: nowrap ;
   line-height: 1.5rem;
@@ -95,7 +95,7 @@ display: none;
 .landing-page__box-link,
 .landing-page__box-link:visited,
 .landing-page__box-mesage{
-  color: white;
+  color: $color-white;
 
 }
 
