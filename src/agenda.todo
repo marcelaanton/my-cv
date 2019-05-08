@@ -116,3 +116,13 @@ Todo List:
   ✔ set the icon padding and font size to 2.5rem and color to white @done(19-05-08 12:16)
   ✔ play with the height and align the text inside the divs that are not icons @done(19-05-08 12:16)
   ✔ commit the changes with the nice mesage "style the awards section" @done(19-05-08 12:16)
+
+  #build the skiils section and style it
+  ✔ create the "what-can-i-do" pug and scss files and wire them up to the project @done(19-05-08 12:49)
+  ✔ create the header and whatCanIDoList variables, each whatCanIDo object having a title and a skillList @done(19-05-08 12:49)
+  ✔ create the structure with an id and a class of  what-can-i-do @done(19-05-08 12:49)
+  ✔ print the header and do the loops @done(19-05-08 13:04)
+  ✔ style the header with periwinkle gray color @done(19-05-08 13:04)
+  ✔ style the .what-can-i-do__title with fiord color, on the center, add some padding and increase the font size @done(19-05-08 13:04)
+  ✔ use flex on .what-i-can-do__list, make the skills wrap and center them @done(19-05-08 13:04)
+  ✔ set some padding to .what-can-i-do__skill, the border color to periwinkle gray,add some space among them, increase a bit the font size, make sure the whitespace doesn't break and add border radius @done(19-05-08 13:04)
