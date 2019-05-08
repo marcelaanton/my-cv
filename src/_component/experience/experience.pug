@@ -1,0 +1,43 @@
+//- model,data
+-
+    var header = "#experience";
+    var experienceList = [
+        {
+            title:'fs\dF',
+            data:'2018',
+            company:'gfsf',
+            responsabilityList:[
+                'responsability1',
+                'resposability2'
+            ]
+        },
+        {
+            title:'fs\dF',
+            data:'2018',
+            company:'gfsf',
+            responsabilityList:[
+                'responsability1',
+                'resposability2'
+            ]
+        }
+    ];
+    //- view, presentation
+    //- css "+":checked
+    //- input
+    //- controlled container(div or whatever)
+
+#experience
+.experience
+    .experience__header=header
+    input(type="radio", name="same-name", id="experience-default")
+    label(for="experience-default") &times;
+    each experience, key in experienceList
+        input.experience__input(type="radio", name= "same-name", id=`experience-id--${key}`)
+        label.experience__title(for=`experience-id--${key}`)=experience.title
+        .experience__details
+            .experience__top
+            .experience__date=experience.date
+            .experience__company=experience.company
+        .experience__list
+        each responsability in experience.responsabilityList
+            .experience__responsability=responsability
