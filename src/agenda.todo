@@ -103,6 +103,16 @@ Todo List:
   ✔ info to description @done(19-05-08 11:05)
   ✔ map2 to location @done(19-05-08 11:05)
   ✔ calendar to date @done(19-05-08 11:05)
-  ☐ commit the latest changes with the message"update the structure of awards section"
+✔ commit the latest changes with the message"update the structure of awards section" @done(19-05-08 11:07)
 
   #style the awards section
+
+  ✔ make the title text thicker @done(19-05-08 11:14)
+  ✔ create spacing among the cards, set the font size to 1.2rem amd line height to 1.5rem @done(19-05-08 11:14)
+  ✔ set the card border bottom color to #415a67 @done(19-05-08 11:14)
+  ✔ set the border top color to #415a67 for all first children for card @done(19-05-08 12:02)
+  ✔ set the .award__icon width to a quarter and others to three quarters @done(19-05-08 12:02)
+  ✔ set the icon background color to #42bcbd, #d76d93, #7e4b83 and #eacb5f and make the info text italic@done(19-05-08 12:09)
+  ✔ set the icon padding and font size to 2.5rem and color to white @done(19-05-08 12:16)
+  ✔ play with the height and align the text inside the divs that are not icons @done(19-05-08 12:16)
+  ✔ commit the changes with the nice mesage "style the awards section" @done(19-05-08 12:16)
