@@ -91,4 +91,18 @@ Todo List:
 ✔ create the pug and scss files and link them to the project @done(19-05-07 18:26)
 ✔ create the .award__header and style it with a color of #b2c7e2 @done(19-05-07 18:27)
 ✔ refactor the header CSS into reusable code @done(19-05-07 18:35)
-☐ refactor colors into a config and use nice variable names for colors
+✔ refactor colors into a config and use nice variable names for colors @done(19-05-08 07:59)
+
+#update the award section structure
+✔ create the variables title, description,location and date @done(19-05-08 10:47)
+✔ convert them to properties of an abject @done(19-05-08 10:47)
+✔ create another object with different values for the properties @done(19-05-08 10:47)
+✔ add the objects into a array @done(19-05-08 10:47)
+✔ loop the list and map the properties to icons: @done(19-05-08 11:05)
+  ✔ trophy to title @done(19-05-08 11:05)
+  ✔ info to description @done(19-05-08 11:05)
+  ✔ map2 to location @done(19-05-08 11:05)
+  ✔ calendar to date @done(19-05-08 11:05)
+  ☐ commit the latest changes with the message"update the structure of awards section"
+
+  #style the awards section
