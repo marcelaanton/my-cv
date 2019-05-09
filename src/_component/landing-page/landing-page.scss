@@ -92,11 +92,16 @@ display: none;
 
 }
 
-.landing-page__box-link,
 .landing-page__box-link:visited,
 .landing-page__box-mesage{
   color: $color-white;
 
+}
+
+html[dir="rtl"] {
+  .landing-page__box-info {
+    order: 1;
+  }
 }
 
 .landing-page__box-link,
