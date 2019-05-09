@@ -1,0 +1,46 @@
+-
+    var header = header
+    var menuList = [
+        {
+        label: 'home',
+        icon: 'home',
+        link: '#landing-page',
+        },
+        {
+        label: 'about me',
+        icon: 'wondering',
+        link: '#about-me',
+        },
+        {
+        label: 'awards',
+        icon: 'trophy',
+        link: '#award',
+        },
+        {
+        label: 'what can I do',
+        icon: 'airplane',
+        link: '#what-can-i-do',
+        },
+        {
+        label: 'experience',
+        icon: 'hammer2',
+        link: '#experience',
+        },
+        {
+        label: 'clients',
+        icon: 'briefcase',
+        link: '#client',
+    }
+    
+    ];
+
+#menu
+a.menu__go-to(href="menu")  
+    span.my-cv__icon--menu3
+.menu
+    .menu__list
+        each menu in menuList
+            a.menu__link(href=menu.link)
+                span(class=`my-cv__icon--${menu.icon}`)
+                span=menu.label
+
